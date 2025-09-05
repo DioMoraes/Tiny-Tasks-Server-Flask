@@ -10,23 +10,11 @@ Este projeto é uma aplicação web simples desenvolvida em Flask que permite:
 
 🚀 Funcionalidades
 
-Formulário de inscrição com validações:
-
-Nome completo
-
-Telefone
-
-Email (único no sistema)
-
-País
-
-Idiomas (até 3 opções, com possibilidade de inserir "Outro")
-
-Gênero
+Formulário de inscrição
 
 Armazenamento dos dados em banco de dados (SQLite local ou PostgreSQL via variável DATABASE_URL).
 
-Sistema de envio de mensagens via Flask-Mail (SMTP Gmail configurado).
+[FUTURO] Sistema de envio de mensagens via Flask-Mail (SMTP Gmail configurado).
 
 Interface estilizada com Bootstrap 5.
 
@@ -37,9 +25,6 @@ Flask
 
 Flask-SQLAlchemy
  - ORM para banco de dados
-
-Flask-Mail
- - Envio de emails
 
 Bootstrap 5
  - Estilização do front-end
